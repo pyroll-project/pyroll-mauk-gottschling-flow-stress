@@ -1,43 +1,32 @@
 [project]
-name = "pyroll-plugin-name" # insert the name of yout plugin here
-description = "Plugin for PyRoll providing ..." # edit the description
+name = "pyroll-mauk-gottschling-flow-stress"
+description = "Plugin for PyRoll providing the flow stress approach and material database for the flow stress model of Mauk and Gottschling."
 authors = [
-    { name = "Your Name", email = "yourmail@server.com" }
+    { name = "Christoph Renzing", email = "christoph.renzing@imf.tu-freiberg.de" }
 ]
-license = "BSD-3-Clause" # may be changed to your wishes
-requires-python = ">=3.9, <4.0"
-
-dependencies = [
-    "pyroll-core ~= 2.0",
+license = "BSD-3-Clause"
+packages = [
+    { include = "pyroll/mauk_gottschling_flow_stress" }
 ]
-
+readme = "README.md"
 classifiers = [
     "Intended Audience :: Science/Research",
     "Intended Audience :: Manufacturing",
     "Operating System :: OS Independent",
-    "Topic :: Scientific/Engineering",
-    "License :: OSI Approved :: BSD License",
-    "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.9",
-    "Programming Language :: Python :: 3.10",
-    "Programming Language :: Python :: 3.11",
-    "Development Status :: 5 - Production/Stable",
-    "Framework :: Hatch",
-    "Framework :: IPython",
-    "Framework :: Jupyter",
-    "Framework :: Pytest",
-    "Framework :: Sphinx",
-    "Natural Language :: English",
+    "Topic :: Scientific/Engineering"
+]
+
+requires-python = ">=3.9, <4.0"
+dependencies = [
+    "pyroll-core ~= 2.0"
 ]
 
 dynamic = ["version"]
 
 [project.urls]
-Homepage = "https://pyroll.readthedocs.io"
-
-# change these URLs to your needs
-Repository = "https://github.com/pyroll-project/pyroll-plugin-template"
-Documentation = "https://github.com/pyroll-project/pyroll-plugin-template/blob/main/docs/docs.pdf"
+Homepage = "https://pyroll-project.github.io"
+Repository = "https://github.com/pyroll-project/pyroll-mauk-gottschling-flow-stress"
+Documentation = "https://github.com/pyroll-project/pyroll-mauk-gottschling-flow-stress/blob/main/docs/docs.pdf"
 
 [build-system]
 requires = ["hatchling"]
