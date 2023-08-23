@@ -28,7 +28,7 @@ major structural transitions of the material.
 
 Load the plugin with the module name `pyroll_mauk_gottschling_flow_stress`.
 
-### The `RollPassProfile.freiberg_flow_stress_coefficients` hook
+### The `RollPassProfile.mauk_gottschling_flow_stress_coefficients` hook
 
 The plugin specifies the `RollPassProfile.mauk_gottschling_flow_stress_coefficients` hook to deliver material
 coefficients to
