@@ -1,6 +1,6 @@
 [project]
 name = "pyroll-mauk-gottschling-flow-stress"
-description = "Plugin for PyRoll providing the flow stress approach and material database for the flow stress model of Mauk and Gottschling."
+description = "Plugin for PyRolL providing the flow stress approach and material database for the flow stress model of Mauk and Gottschling."
 authors = [
     { name = "Christoph Renzing", email = "christoph.renzing@imf.tu-freiberg.de" }
 ]

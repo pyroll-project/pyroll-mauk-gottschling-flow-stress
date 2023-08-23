@@ -6,7 +6,7 @@ from typing import Optional
 @dataclass
 class MaukGottschlingFlowStressCoefficients:
     """
-    Class representing the Freiberg flow stress model published by Mauk and Gottschling
+    Class representing the Mauk Gottschling flow stress model published by Mauk and Gottschling
     """
     k: Optional[float]
     m1: Optional[float] = 0
