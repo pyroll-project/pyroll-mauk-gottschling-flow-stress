@@ -26,7 +26,7 @@ class DummyProfile:
         self.strain = strain
         self.temperature = temperature
         self.material = "C15"
-        self.freiberg_flow_stress_coefficients = coefficients
+        self.mauk_gottschling_flow_stress_coefficients = coefficients
 
 
 class DummyRollPass:
