@@ -2,7 +2,7 @@ from pyroll.core import Profile, DeformationUnit, Hook
 
 from .mauk_gottschling_flow_stress import MaukGottschlingFlowStressCoefficients, flow_stress
 
-VERSION = "3.0"
+VERSION = "3.0.0"
 
 Profile.mauk_gottschling_flow_stress_coefficients = Hook[MaukGottschlingFlowStressCoefficients]()
 
